@@ -1,0 +1,46 @@
+* {
+    font-family: "Century Gothic";
+}
+
+.tittle {
+    text-shadow: 3px 4px palevioletred;
+    font-size: 40px;
+}
+
+#turn {
+    text-align: center;
+    font-size: 16px;
+}
+
+body {
+    background: rgb(238, 236, 174);
+    background: radial-gradient(circle, rgba(238, 236, 174, 1) 0%, rgba(148, 233, 211, 1) 100%);
+    margin: 50px 30px 30px 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 80%;
+}

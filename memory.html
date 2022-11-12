@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="memory.css">
+    <script src="memory.js" defer></script>
+    <title>POKE MEMORY</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="tittle">MEMORY GAME</h1>
+        <h2 id="turn"></h2>
+    </header>
+    <main>
+        <section class="sectionPlayerOne">
+            <p id="p1">Jugador 1</p>
+            <br />
+            <input type="text" id="player1Name">
+            <br />
+            <p id="countP1">Aciertos: 0</p>
+            <br />
+            <button id="start" onclick="startButton()">Empezar partida</button>
+
+        </section>
+        <section id="game" class="game" style="visibility: hidden">
+
+            <div>
+                <button id="0" class="btn" onclick="flipCard(0)"></button>
+                <button id="1" class="btn" onclick="flipCard(1)"></button>
+                <button id="2" class="btn" onclick="flipCard(2)"></button>
+                <button id="3" class="btn" onclick="flipCard(3)"></button>
+                <button id="4" class="btn" onclick="flipCard(4)"></button>
+
+            </div>
+
+            <div>
+                <button id="5" class="btn" onclick="flipCard(5)"></button>
+                <button id="6" class="btn" onclick="flipCard(6)"></button>
+                <button id="7" class="btn" onclick="flipCard(7)"></button>
+                <button id="8" class="btn" onclick="flipCard(8)"></button>
+                <button id="9" class="btn" onclick="flipCard(9)"></button>
+
+            </div>
+            <div>
+                <button id="10" class="btn" onclick="flipCard(10)"></button>
+                <button id="11" class="btn" onclick="flipCard(11)"></button>
+                <button id="12" class="btn" onclick="flipCard(12)"></button>
+                <button id="13" class="btn" onclick="flipCard(13)"></button>
+                <button id="14" class="btn" onclick="flipCard(14)"></button>
+
+            </div>
+            <div>
+                <button id="15" class="btn" onclick="flipCard(15)"></button>
+                <button id="16" class="btn" onclick="flipCard(16)"></button>
+                <button id="17" class="btn" onclick="flipCard(17)"></button>
+                <button id="18" class="btn" onclick="flipCard(18)"></button>
+                <button id="19" class="btn" onclick="flipCard(19)"></button>
+            </div>
+
+
+
+        </section>
+        <section class="sectionPlayerTwo">
+            <p id="p2">Jugador 2: </p>
+            <br />
+            <input type="text" id="player2Name">
+            <p id="countP2">Aciertos: 0</p>
+            <br />
+            <button id="restart" onclick="location.reload()">Reiniciar partida</button>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
